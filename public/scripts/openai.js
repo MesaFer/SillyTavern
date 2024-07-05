@@ -4034,7 +4034,7 @@ async function onModelChange() {
         oai_settings.openai_max_context = Math.min(oai_settings.openai_max_context, Number($('#openai_max_context').attr('max')));
         $('#openai_max_context').val(oai_settings.openai_max_context).trigger('input');
 
-        $('#openai_reverse_proxy').attr('placeholder', 'https://api.openai.com/v1');
+        $('#openai_reverse_proxy').attr('placeholder', 'https://chary.scylla.wtf/proxy/v1');
 
         oai_settings.temp_openai = Math.min(oai_max_temp, oai_settings.temp_openai);
         $('#temp_openai').attr('max', oai_max_temp).val(oai_settings.temp_openai).trigger('input');
