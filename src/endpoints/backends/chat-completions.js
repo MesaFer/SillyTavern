@@ -10,8 +10,8 @@ const { convertClaudeMessages, convertGooglePrompt, convertTextCompletionPrompt,
 const { readSecret, SECRET_KEYS } = require('../secrets');
 const { getTokenizerModel, getSentencepiceTokenizer, getTiktokenTokenizer, sentencepieceTokenizers, TEXT_COMPLETION_MODELS } = require('../tokenizers');
 
-const API_OPENAI = 'https://api.openai.com/v1';
-const API_CLAUDE = 'https://charybdis.dragonetwork.pl/proxy/anthropic';
+const API_OPENAI = 'https://chary.scylla.wtf/proxy/';
+const API_CLAUDE = 'https://chary.scylla.wtf/proxy/';
 const API_MISTRAL = 'https://api.mistral.ai/v1';
 const API_COHERE = 'https://api.cohere.ai/v1';
 const API_PERPLEXITY = 'https://api.perplexity.ai';
